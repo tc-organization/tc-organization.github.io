@@ -61,6 +61,7 @@
 
 	border:0px solid #922E71;
 	background:#922E71;
+	font-size:24px;
 }
 #Naruto{
 	margin-left:100px
@@ -153,6 +154,8 @@ top: -100px;*/
 	height:30px;
 	z-index: 99;
 	*/
+	margin-top: 100px;
+	margin-left: 50px;
 	width: 100px;
 	height: 100px;
 	background-size: 100px;
@@ -162,8 +165,31 @@ top: -100px;*/
 .hidden_effect:hover {
 	/*visibility: visible;*/
 	/*color: white;*/	
-	width: 200px;
-	height: 200px;
-	background-size: 200px;
-	background-image: url(../images/animation.png);
+	z-index: 99;
+	margin-top: 100px;
+	width: 300px;
+	height: 300px;
+	background-size: 300px 300px;
+	background-image: url(../images/kuang.png);
+}
+#hidden_effect{
+	margin-left:500px;
+	margin-top:10px;
+	margin-bottom:5px;
+	background-size: 300px 300px;
+	background-image: url(../images/kuang.png);
+}
+	background-image: url(../images/contect.png);
+}
+#hidden_effect:hover {	
+	z-index: 99;
+	margin-top: 100px;
+	width: 300px;
+	height: 300px;
+	background-size: 300px 300px;
+	background-image: url(../images/kuang.png);
+}
+
+#intro{
+	z-index: -1;
 }
